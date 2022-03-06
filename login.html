@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+        div.solid {border-color: blue; border-style: solid; width: 350px; padding:25px;background-color:white }
+        div.center{position: fixed;top: 50%;left: 50%;margin-top: -210px;margin-left: -200px;}
+        </style>
+    </head>
+    <body style="background-color:skyblue">
+            <div class="center">
+            <div align="center" class="solid">
+           <p><b>Please enter login details</b></p>
+            <br>
+            <form action="login.php" method="post" enctype="multipart/form-data">
+            <div class="inputbox">
+            <label for="Username">Username:&emsp;&emsp;</label>
+            <input type="text" name="Username" id="Username" size="5"/>
+            </div>
+           <br>
+            <div class="inputbox">
+                <label for="Password">Password:&emsp;&emsp;</label>
+                <input type="password" name="Password" id="Password" size="5"/>
+            </div>
+            <br>
+           <input type=submit>
+                </form>
+        </div>
+        </div>
+    </body>
+</html>
